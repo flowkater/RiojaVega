@@ -1,4 +1,4 @@
 RiojaVega
 =========
 
-RiojaVega Team Study Source Code
+RiojaVega Study Source Code
