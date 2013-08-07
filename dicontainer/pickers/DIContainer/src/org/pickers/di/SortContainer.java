@@ -8,10 +8,14 @@ public class SortContainer {
 	
 	
 	public Sortable getSortable() throws Exception {
-		
-		if ( sortObj == null)
-			sortObj = (Sortable) Class.forName(SortParser.getSortVO().getSortClass()).newInstance();
-		
+		if ( sortObj == null){
+			synchronized (this) {
+				
+				if ( sortObj == null ) {
+					sortObj = (Sortable) Class.forName(SortParser.getSortVO().getSortClass()).newInstance();
+				}
+			}
+		}
 		return sortObj;
 	}
 	
