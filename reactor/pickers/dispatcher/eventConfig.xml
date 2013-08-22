@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event>
+		<header>0x5001</header>
+		<handler>server.AEventHandler</handler>
+	</event>
+	<event>
+		<header>0x6001</header>
+		<handler>server.BEventHandler</handler>
+	</event>
+</events>
