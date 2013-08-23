@@ -1,0 +1,6 @@
+Created and started Thread = Thread-2
+
+127.0.0.1 : 56284
+Thread = Thread-2
+Client finished echoed 10 bytes
+

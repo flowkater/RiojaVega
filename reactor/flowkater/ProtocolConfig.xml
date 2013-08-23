@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocols>
+	<protocol header="0x3333">Echo</protocol>
+	<protocol header="0x4444">TimelimitEcho</protocol>
+	<protocol header="0x5555">Time</protocol>
+	<protocol header="0x6666">Compress</protocol>
+	<protocol header="0x8888">HTTP</protocol>
+</protocols>
