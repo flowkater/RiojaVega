@@ -5,7 +5,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class Main {
+public class ReactorMain {
 
 	public static void main(String[] args) throws UnknownHostException,
 			IOException, InterruptedException {

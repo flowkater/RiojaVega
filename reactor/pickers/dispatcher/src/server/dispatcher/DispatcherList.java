@@ -9,7 +9,7 @@ import org.simpleframework.xml.Root;
 @Root(name="dispatchers")
 public class DispatcherList {
 
-	@ElementList
+	@ElementList(name="dispatcher", inline=true)
 	private List<DispatcherVO> dispatcherList = new ArrayList<DispatcherVO>();
 
 	public List<DispatcherVO> getDispatcherList() {

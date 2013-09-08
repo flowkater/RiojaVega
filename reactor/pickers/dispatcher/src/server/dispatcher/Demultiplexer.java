@@ -14,7 +14,7 @@ public class Demultiplexer {
 		
 		Serializer serializer = new Persister();
 		
-		File source = new File("evnetConfig.xml");
+		File source = new File("eventConfig.xml");
 		
 		ParseList list = null;
 		try {

@@ -2,7 +2,6 @@ package server.dispatcher;
 
 import java.io.File;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.simpleframework.xml.Serializer;
@@ -19,10 +18,12 @@ public class DispatcherConfig {
 	public DispatcherConfig() {
 		//default file path
 		file = new File("dispatcherConfig.xml");
+		parseConfig();
 	}
 	
 	public DispatcherConfig(File configFilePath) {
 		file = configFilePath;
+		parseConfig();
 	}
 	
 	private void parseConfig() {

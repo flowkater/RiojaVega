@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <dispatchers>
-	<dispatcher name="reactor" port"5000"/>
-	<dispatcher name="proactor" port"6000"/>
+	<dispatcher name="reactor" port="5000"/>
+	<dispatcher name="proactor" port="6000"/>
 </dispatchers>
